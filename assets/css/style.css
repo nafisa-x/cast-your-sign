@@ -1,0 +1,73 @@
+/* TABLE OF CONTENTS
+
+-- GlOBAL VARIABLES
+-- BODY
+-- SECTIONS
+        HOME
+        ABOUT
+        PORTFOLIO
+        CONTACT
+-- GENERAL STYLING / TWEAKS
+*/
+
+/* GLOBAL VARIABLES */
+:root {
+  --accentColor: #009abf; /*color that stands out - usually the main branding color*/
+
+  --textColor: #000000; /*color for main text - usually recommend 'black' for compatability and accessibility*/
+  --headingColor: #000000; /*color for headings and other colored text*/
+
+  --boxShadow: 0 1px 3px 0 #ffffff25, 0 10px 20px -5px #2d3e5015; /*default box-shadow color*/
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #1e1e1e;
+
+  /* font */
+  font-family: "tommy-regular";
+  font-size: 1.1rem;
+  font-style: normal;
+  color: rgb(225, 225, 225);
+}
+
+
+#setup {
+  background-color: rgb(213, 213, 213);
+  color: black;
+}
+
+
+
+
+
+
+/* FONTS */
+@font-face {
+  font-family: "Antology";
+  src: url("../fonts/Antology.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "tommy-regular";
+  src: url("../fonts/MADE Tommy Soft Regular PERSONAL USE.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Silkscreen";
+  src: url("../fonts/Silkscreen-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Earwig";
+  src: url("../fonts/earwig\ factory\ rg.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "LilitaOne";
+  src: url("../fonts/LilitaOne-Regular.ttf") format("truetype");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
